@@ -1,0 +1,280 @@
+
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#logomundo{
+    width: 130px;
+    height: 60px;
+    margin-left: 41%;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+
+
+
+.menu{
+   min-width: 320px;
+   position: fixed ;
+   width: 100%;
+   height: 10%;
+   margin-top: 0px;
+ 
+   list-style: none;
+   padding:0;
+  
+   
+   background-color: #00050a;
+   color: aliceblue;
+   align-items: center;
+   
+}
+.menu>ul{
+    background-color:#00050a;
+}
+.menu ul li{
+    margin-top:0px;
+  
+    color: aliceblue;
+    font-size: sans-serif;
+    position: relative;
+   
+    padding: 10px;
+    display: inline-block;
+    align-items:center;
+    justify-content: center;
+    max-width: 100px;
+    
+}
+.menu ul li a{
+    color: rgb(176, 186, 194);
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    padding-right: 6px;
+}
+.menu ul li a:hover{
+    color:#0c57b9;
+    cursor: pointer;
+    padding:15px;
+}
+.menu ul li a:active{
+    color: aqua;
+}
+
+
+.buscar{
+    
+    max-width:360px;
+    height: 50px;
+    margin-top: 0px;
+
+
+    
+}
+#txtbuscar{
+    float:left ;
+    background-color:#0e1b2c;
+    padding-left:10px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+    border-radius: 10px ;
+    margin-left: 20px;
+    margin-top: 55px;
+    color: aliceblue;
+    
+
+}
+#busca{
+    width: 30px;
+    margin-top: 55px;
+    margin-left: -40px;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+
+    
+
+#img{
+    align-content: center;
+   
+   
+
+}
+
+
+body{
+    
+    background-color:#010e1f;
+    
+
+}
+
+ 
+
+main{
+    background-color: rgb(243, 242, 242);
+    
+    min-width: 320px;
+    max-width: 900px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 15px black;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    
+}
+main>section>div{
+    margin-bottom: 300px;
+}
+
+
+
+
+
+
+
+h1{
+    background-color:rgb(32, 39, 77);
+    color: aliceblue;
+    font-size: sans-serif;
+    padding: 20px;
+    margin: 140px -20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+
+h3{
+    font-size: sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200px;
+    margin-top: 10px;
+    list-style: none;
+    
+}
+p{
+    text-align: justify;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+    
+
+label{
+    display: block;
+    padding:5px;
+    color: aliceblue;
+    
+    
+}
+input{
+    width: 250px;
+    height: 30px;
+    display: block;
+    padding-right: 0%;
+    margin:auto ;
+    border-radius: 6px;
+    border: none;
+}
+.formulario{
+    width: 300px;
+    height: 350px;
+    background-color: #010e1f;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+form{
+    width: 300px;
+    height: 200px;
+    margin-top: 4px;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+ 
+}
+#butao{
+    width: 70px;
+    height: 30px;
+    display: block;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+#butao:hover{
+   background-color: #0e1b2c;
+   cursor: pointer;
+}
+.buscar{
+    margin-bottom: 40px;
+ 
+
+}
+input#busca{
+    width: 300px;
+    height: 40px;
+    padding-bottom: 5px;
+    margin:auto;
+    margin-bottom: 40px;
+  
+
+   
+}
+img{
+    width: 100%;
+}
+
+div.videos{
+    background-color:rgb(243, 242, 242);
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 0%;
+    margin: 0px -20px 30px -20px;
+    
+}
+.videos >iframe{
+    
+    top:5%;
+    left: 5%;
+    width: 100%;
+    height: 400px;
+    
+}
+.formulario>form>input{
+   min-width: -280px;
+   max-width: 150px;
+   margin: auto;
+}
