@@ -112,6 +112,16 @@ img{
     padding: 5px;
     cursor: pointer;
 }
+#login{
+    height: 40px;
+    
+    padding-left: 100px;
+    font-style:italic;
+    font-size:15px;
+   
+
+    
+}
 
     
 
@@ -169,7 +179,7 @@ h1{
 
 h3{
     font-size: sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
     text-decoration: none;
 }
 
@@ -206,7 +216,7 @@ input{
     width: 300px;
     height: 350px;
     background-color: #010e1f;
-    margin-top: 50px;
+    margin-top:300px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
@@ -267,6 +277,13 @@ div.videos{
     width: 100%;
     height: 400px;
     
+}
+
+.corpo{
+    background-color: #00050a;
+}
+.formulario{
+    margin-top: 300px;
 }
 .formulario>form>input{
    min-width: -280px;
